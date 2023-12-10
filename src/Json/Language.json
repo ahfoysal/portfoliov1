@@ -1,0 +1,12 @@
+[
+  { "name": "JavaScript" },
+  { "name": "Typescript" },
+
+  { "name": "React.js" },
+  { "name": "Express.js" },
+  { "name": "Next.js" },
+  { "name": "Node.js" },
+  { "name": "Redux" },
+  { "name": "MongoDb" },
+  { "name": "Tailwind Css" }
+]

@@ -1,0 +1,65 @@
+[
+  
+
+{"":true,
+"title":"Movie &  Anime Streaming Site ",
+"details":"You Can Watch Every movie , tv show & anime here without any ads. Has some fetures like download, continue watch , watch list and many more.",
+"technologies": ["React","Redux", "FireBase","plyr"],
+"githubLink": false, 
+"link": "https://pewds.vercel.app/",
+"img": "https://i.ibb.co/SKR3qHq/image.png"
+},
+{"isFeatured":true,
+"title":"Node Js APi Library",
+"details":"A Node.js library provides APIs for accessing data from various websites, like Daraz, Bikroy.com, Foodpanda, Prothom Alo, as well as streaming links for movies, TV shows, and anime, and so on.",
+"technologies": ["Node JS","Express JS", "node-cache"],
+"githubLink": false, 
+"link": "https://docs.pewds.vercel.app/",
+"img": "https://i.ibb.co/3S4RqDD/image.png"
+},
+{"isFeatured":true,
+"title":"Bus Routes of Dhaka",
+"details":"Easily get routes of buses.",
+"technologies": ["FireBase","React"],
+"githubLink": false, 
+"link": "https://busroute.vercel.app/",
+"img": "https://i.ibb.co/zxXwJDz/image.png"
+},
+{"isFeatured":true,
+"title":"Simple E-commerce Site",
+"details":"  Full funcional  e-commerce project. t will consist of almost every features an ecommerce website is supposed to pose. Example: inventory system , orders track , and <a href='https://wordpress.com/'> wordpress </a> powerfull backend. It has every possible features. ",
+"technologies": ["React","Wocommerce-api","Redux", "FireBase","Styled Components", "Firestore"],
+"githubLink": false, 
+"link": "http://pewds-shop.vercel.app",
+"img": "/e-com.png"
+}
+,
+{"isFeatured":true,
+"title":"10 Minute School Clone",
+"details":"I tried to make 10min school clone for fun and test my skill.",
+"technologies": ["React","Yt Embed"],
+"githubLink": false, 
+"link": "https://9-11school.vercel.app/",
+"img": "https://i.ibb.co/31Tvvrb/image.png"
+},
+{"isFeatured":true,
+"title":"A multi Purpose Discord Bot",
+"details":"Just tried to made a dc bot using Discord Js , Also have  dashboard made with React.",
+"technologies": ["Discord Js","React"],
+"githubLink": false, 
+"link": "##",
+"img": "https://i.ibb.co/4gpHSSP/image.png"
+},
+  {"isFeatured":true,
+"title":"E-commerce Site With Next.js",
+"details":"Fully functional e-commerce project in Next.js with server-side rendering ",
+"technologies": ["Next","React","Wocommerce-api", "wordpress-rest-api"],
+"githubLink": false, 
+"link": "http://shop.pewds.vercel.app",
+"img": "https://i.ibb.co/wskJBCq/image.png"
+}
+]
+
+
+
+
