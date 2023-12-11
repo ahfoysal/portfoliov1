@@ -1,66 +1,36 @@
 import styled from "styled-components";
-import Col from "react-bootstrap/Col";
-import Nav from "react-bootstrap/Nav";
-import Row from "react-bootstrap/Row";
-import Tab from "react-bootstrap/Tab";
-import data from "../Json/Experience.json";
 
-const Experience = () => {
+const Education = () => {
   return (
-    <Wrapper id="experience">
-      <h2 className="num-heading"> Where I’ve Worked</h2>
+    <Wrapper id="education">
+      <h2 className="num-heading"> Education</h2>
 
       <div className="inner">
-        <Tab.Container id="left-tabs-example" defaultActiveKey="1">
-          <Row>
-            <Col sm={3} className="boxx ">
-              <Nav variant="pills" className="d-flex tittles">
-                {data.map((name, index) => {
-                  return (
-                    <Nav.Item key={index + 1}>
-                      <Nav.Link eventKey={index + 1}>{name.name}</Nav.Link>
-                    </Nav.Item>
-                  );
-                })}
-              </Nav>
-            </Col>
-            <Col sm={9}>
-              <Tab.Content className="job-data">
-                {data.map((name, index) => {
-                  return (
-                    <Tab.Pane
-                      eventKey={`${index + 1}`}
-                      key={index + 1}
-                      className="job-single"
-                    >
-                      <h3>
-                        {name.position}{" "}
-                        <span>
-                          {" "}
-                          at <a href="##">{name.name}</a>
-                        </span>{" "}
-                      </h3>
-                      <p className="duration">{name.duration}</p>
-                      <div>
-                        <ul>
-                          {name.info.map((name, index) => {
-                            return <li key={index + 1}>{name}</li>;
-                          })}
-                        </ul>
-                      </div>
-                    </Tab.Pane>
-                  );
-                })}
-              </Tab.Content>
-            </Col>
-          </Row>
-        </Tab.Container>
+        <div className="boxx ">
+          <div className="d-flex tittles">
+            <li>
+              <p>2021-Present</p>
+            </li>
+          </div>
+        </div>
+
+        <div className="job-data">
+          <div className="job-single">
+            <h3>
+              Bachelor of Business Administration (BBA)
+              <span>
+                {" "}
+                from <a href="##">National University</a>
+              </span>{" "}
+            </h3>
+          </div>
+        </div>
       </div>
     </Wrapper>
   );
 };
 
-export default Experience;
+export default Education;
 const Wrapper = styled.section`
   padding-bottom: 0px;
   max-width: 700px;
@@ -133,7 +103,6 @@ const Wrapper = styled.section`
     line-height: 12px;
   }
   .inner {
-    min-height: 340px;
     display: flex;
   }
   .nav-item a {

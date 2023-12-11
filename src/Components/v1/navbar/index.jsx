@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 
 import PropTypes from "prop-types";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import { LOADER_DELAY, MenuLinks } from "../../lib/constants";
-import { useScrollDirection } from "../../hooks";
+import { LOADER_DELAY, MenuLinks } from "../../../lib/constants";
+import { useScrollDirection } from "../../../hooks";
 import { StyledHeader, StyledNav, StyledLinks } from "./styles";
 import Menu from "../Menu";
 

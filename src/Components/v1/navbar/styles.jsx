@@ -3,7 +3,7 @@ import {
   NAV_SCROLL_HEIGHT,
   NAV_SCROLL_HEIGHT_MOBILE,
   NAV_HEIGHT,
-} from "../../lib/constants";
+} from "../../../lib/constants";
 
 export const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};

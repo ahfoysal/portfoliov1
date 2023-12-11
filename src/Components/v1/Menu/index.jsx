@@ -1,8 +1,8 @@
 /* eslint-disable prefer-destructuring */
 import { useState, useEffect, useRef } from "react";
 
-import { KEY_CODES, MenuLinks } from "../../lib/constants";
-import { useOnClickOutside } from "../../hooks";
+import { KEY_CODES, MenuLinks } from "../../../lib/constants";
+import { useOnClickOutside } from "../../../hooks";
 import { StyledMenu, StyledHamburgerButton, StyledSidebar } from "./styles";
 
 const Menu = () => {

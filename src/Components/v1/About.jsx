@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import styled from "styled-components";
-import data from "../Json/Language.json";
+import data from "../../Json/Language.json";
 
 const About = () => {
   return (
