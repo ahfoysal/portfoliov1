@@ -6,6 +6,7 @@
     "technologies": ["Socket.io", "Next.Js", "Mongoose"],
     "githubLink": true,
     "link": "https://chatcord.pewds.vercel.app/",
+    "gitLink": "https://github.com/ahfoysal/ChatCord-Client-Next.js",
     "img": "https://i.imgur.com/3CHsj5r.png"
   },
   {
@@ -19,11 +20,12 @@
   },
   {
     "isFeatured": true,
-    "title": "Node Js APi Library",
+    "title": "Node Js APi Library Documentation",
     "details": "A Node.js library provides APIs for accessing data from various websites, like Daraz, Bikroy.com, Foodpanda, Prothom Alo, as well as streaming links for movies, TV shows, and anime, and so on.",
     "technologies": ["Node JS", "Express JS", "node-cache", "Cheerio.Js"],
     "githubLink": true,
     "link": "https://docs.pewds.vercel.app/",
+    "gitLink": "https://github.com/ahfoysal/docs.pewds.api",
     "img": "https://i.ibb.co/3S4RqDD/image.png"
   },
   {
@@ -37,6 +39,7 @@
       "NextUI",
       "Firebase Auth"
     ],
+    "gitLink": "https://github.com/ahfoysal/Jobify-Client-Code-MERN",
     "githubLink": true,
     "link": "https://jobify-bd6c2.web.app/",
     "img": "https://i.imgur.com/36s3avk.png"

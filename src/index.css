@@ -7,14 +7,14 @@ body {
   width: 100% !important;
   min-height: 100%;
 }
-a {
+/* a {
   display: inline-block !important;
   text-decoration: none !important;
   text-decoration-skip-ink: auto !important;
   color: inherit;
   position: relative !important;
   transition: var(--transition) !important;
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -32,6 +32,11 @@ code {
   font-family: var(--font-sans) !important;
   font-size: var(--fz-xl) !important;
   line-height: 1.3 !important;
+}
+.active .nav-indicator {
+  width: 4rem !important;
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 .resume-button {
   font-size: 0.9rem !important;
@@ -68,7 +73,12 @@ p {
   box-shadow: none !important;
   border: none !important;
 }
-
+.social:hover {
+  /* margin-right: 5px; */
+  /* color: var(--green); */
+  /* font-size: var(--fz-md); */
+  /* text-align: right; */
+}
 @media (max-width: 480px) {
   body {
     font-size: var(--fz-lg);
@@ -123,11 +133,12 @@ p {
   }
 
   li {
-    margin-right: 5px;
-    color: var(--green);
-    font-size: var(--fz-md);
-    text-align: right;
+    /* margin-right: 5px; */
+    /* color: var(--green); */
+    /* font-size: var(--fz-md); */
+    /* text-align: right; */
   }
+
   li span {
     margin: 0px 5px;
     position: relative;
@@ -136,14 +147,14 @@ p {
     color: var(--slate);
   }
 
-  a {
+  /* a {
     padding: 10px;
   }
 
   a span:hover,
   a span:focus {
     color: var(--green) !important;
-  }
+  } */
   .resume-button {
     color: var(--green);
     background-color: transparent;

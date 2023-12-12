@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import { FiGithub } from "react-icons/fi";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
 import { FiFacebook } from "react-icons/fi";
-import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -11,36 +10,45 @@ const Footer = () => {
         <ul className="social-icons">
           <li>
             {" "}
-            <a href="##">
+            <a href="https://github.com/ahfoysal">
               {" "}
               <FiGithub className="social-icon" />{" "}
             </a>{" "}
           </li>
           <li>
             {" "}
-            <a href="##">
+            <a href="https://www.instagram.com/pewwdsss_/">
               {" "}
               <FiInstagram className="social-icon" />{" "}
             </a>{" "}
           </li>
           <li>
             {" "}
-            <a href="##">
+            <a href="https://www.facebook.com/hosan19/">
               {" "}
               <FiFacebook className="social-icon" />{" "}
             </a>{" "}
           </li>
           <li>
             {" "}
-            <a href="##">
+            <a href="https://www.linkedin.com/in/ahfoysal/">
               {" "}
-              <FaWhatsapp className="social-icon" />{" "}
+              <FiLinkedin className="social-icon" />
             </a>{" "}
           </li>
         </ul>
       </div>
-
-      <p>Built by Ah Foysal. </p>
+      {/* <div className="flex justify-center items-center ">
+        {" "}
+        <a href="mailto:ahfoysal30@gmail.com" className="my-4 hover:text-green">
+          ahfoysal30@gmail.com
+        </a>{" "}
+        <span className="mx-2">|</span>
+        <a href="" className="my-4 hover:text-green">
+          +8801861389963
+        </a>
+      </div> */}
+      <p>Built by Pewds. </p>
     </Wrapper>
   );
 };
@@ -55,7 +63,8 @@ const Wrapper = styled.footer`
   flex-direction: column;
   height: auto;
   min-height: 70px;
-  padding: 15px;
+
+  padding: 0px 15px 15px 0;
   text-align: center;
   .footer-icons {
     display: none;

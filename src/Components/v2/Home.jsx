@@ -1,6 +1,8 @@
+import RightBar from "./RightBar";
 import About from "./About";
 import Contact from "./Contact";
 import Education from "./Education";
+import Footer from "./Footer";
 import Intro from "./Intro";
 import Projects from "./projects";
 
@@ -13,6 +15,8 @@ const Home = () => {
         <Education />
         <Projects />
         <Contact />
+        <Footer />
+        <RightBar />
       </div>
     </div>
   );

@@ -6,17 +6,13 @@ const Education = () => {
       <h2 className="num-heading"> Education</h2>
 
       <div className="inner">
-        <div className="boxx ">
-          <div className="d-flex tittles">
-            <li>
-              <p>2021-Present</p>
-            </li>
-          </div>
-        </div>
+        <li className="list-none min-w-fit">
+          <p>2021-Present</p>
+        </li>
 
         <div className="job-data">
           <div className="job-single">
-            <h3>
+            <h3 className="wrap">
               Bachelor of Business Administration (BBA)
               <span>
                 {" "}
@@ -50,7 +46,7 @@ const Wrapper = styled.section`
     font-size: clamp(26px, 5vw, var(--fz-heading));
     white-space: nowrap;
   }
-  .num-heading::before {
+  /* .num-heading::before {
     position: relative;
     bottom: 4px;
     counter-increment: section 2;
@@ -61,7 +57,7 @@ const Wrapper = styled.section`
     font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
     margin-top: 15px;
     font-weight: 400;
-  }
+  } */
   .num-heading::after {
     content: "";
     display: block;
@@ -221,12 +217,16 @@ const Wrapper = styled.section`
       overflow-x: auto;
       width: calc(100% + 100px);
       padding-left: 30px;
-      margin-left: -50px;
+      margin-left: -30px;
       margin-bottom: 0px;
     }
     .nav-item a {
       border-bottom: 2px solid var(--lightest-navy);
       border-left: none;
+    }
+    .inner {
+      display: flex;
+      flex-direction: column;
     }
     .job-data {
       margin-left: 0px;

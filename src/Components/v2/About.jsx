@@ -15,8 +15,10 @@ const About = () => {
               am currently working on MERN projects using TypeScript and
               JavaScript. Feel free to check out what I've built!
             </p>
-            <p></p>
-            <p>Here are a few technologies I’ve been working with recently:</p>
+
+            <p className="text-xl mt-5 font-bold text-green/70 ">
+              Here are few technologies I know:
+            </p>
             <ul className="skills-list">
               {data.map((name) => (
                 <li key={name.name}>{name.name}</li>
@@ -66,7 +68,7 @@ const Wrapper = styled.section`
   .intro {
     color: rgb(163, 168, 195);
   }
-  .num-heading::before {
+  /* .num-heading::before {
     position: relative;
     bottom: 4px;
     counter-increment: section 1;
@@ -77,7 +79,7 @@ const Wrapper = styled.section`
     font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
     margin-top: 15px;
     font-weight: 400;
-  }
+  } */
   .num-heading::after {
     content: "";
     display: block;
@@ -94,13 +96,13 @@ const Wrapper = styled.section`
     grid-template-columns: 3fr 2fr;
     gap: 50px;
   }
-  p {
+  /* p {
     font-size: var(--fz-lg);
-  }
+  } */
 
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(3, minmax(140px, 200px));
+    grid-template-columns: repeat(2, minmax(140px, 200px));
     gap: 0px 10px;
     padding: 0px;
     margin: 20px 0px 0px;
@@ -207,8 +209,11 @@ const Wrapper = styled.section`
       display: block;
     }
     .about-pic {
-      margin: 50px auto 0px;
+      margin: 50px 0 0px;
       width: 70%;
+    }
+    ul.skills-list {
+      grid-template-columns: repeat(2, minmax(140px, 200px));
     }
   }
 `;
