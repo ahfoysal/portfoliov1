@@ -1,0 +1,16 @@
+export const skills: string[] = [
+  "TypeScript",
+  "JavaScript",
+  "Next.js",
+  "React",
+  "React Native",
+  "NestJS",
+  "Node.js",
+  "PostgreSQL",
+  "Prisma",
+  "Redis",
+  "Socket.IO",
+  "Tailwind CSS",
+  "Docker",
+  "AWS S3",
+];
