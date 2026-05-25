@@ -1,7 +1,7 @@
 import RightBar from "./RightBar";
 import About from "./About";
 import Contact from "./Contact";
-import Education from "./Education";
+import Experience from "./Experience";
 import Footer from "./Footer";
 import Intro from "./Intro";
 import Projects from "./projects";
@@ -12,7 +12,7 @@ const Home = () => {
       <Intro />
       <div>
         <About />
-        <Education />
+        <Experience />
         <Projects />
         <Contact />
         <Footer />

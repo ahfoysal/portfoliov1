@@ -9,7 +9,7 @@ const Intro = () => {
   const [activeSection, setActiveSection] = useState("about");
   const sections = [
     { name: "About", url: "#about" },
-    { name: "Education", url: "#education" },
+    { name: "Experience", url: "#experience" },
     { name: "Projects", url: "#projects" },
     { name: "Contact", url: "#contact" },
   ];
@@ -64,10 +64,10 @@ const Intro = () => {
           Abu Hossain Foysal
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          MERN Stack Developer
+          Full-Stack Developer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
-          I'm on my way to create some cool websites!
+          I build web apps, REST APIs, and real-time features with TypeScript, Next.js, NestJS, and PostgreSQL.
         </p>
         <nav className="nav hidden lg:block" aria-label="In-page jump links">
           <ul className="mt-16 w-max">

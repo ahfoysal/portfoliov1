@@ -1,12 +1,16 @@
 [
+  { "name": "TypeScript" },
   { "name": "JavaScript" },
-  { "name": "Typescript" },
-
-  { "name": "React.js" },
-  { "name": "Express.js" },
   { "name": "Next.js" },
-
-  { "name": "Redux" },
-  { "name": "MongoDb" },
-  { "name": "Tailwind Css" }
+  { "name": "React" },
+  { "name": "React Native" },
+  { "name": "NestJS" },
+  { "name": "Node.js" },
+  { "name": "PostgreSQL" },
+  { "name": "Prisma" },
+  { "name": "Redis" },
+  { "name": "Socket.IO" },
+  { "name": "Tailwind CSS" },
+  { "name": "Docker" },
+  { "name": "AWS S3" }
 ]

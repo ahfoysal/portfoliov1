@@ -10,10 +10,12 @@ const About = () => {
         <div className="about-info">
           <div>
             <p className="intro">
-              Hello, I'm Foysal, a web developer in Dhaka, Bangladesh. I enjoy
-              creating cool websites. I aim to become a full-stack developer and
-              am currently working on MERN projects using TypeScript and
-              JavaScript. Feel free to check out what I've built!
+              I'm Foysal, a full-stack developer based in Dhaka, Bangladesh. I
+              work mainly with TypeScript across the frontend and backend,
+              building web apps, REST APIs, and real-time features. I've shipped
+              production apps using Next.js, NestJS, and PostgreSQL, and I've
+              worked onsite with teams in South Korea. Feel free to check out
+              what I've built.
             </p>
 
             <p className="text-xl mt-5 font-bold text-green/70 ">
